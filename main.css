@@ -1,0 +1,65 @@
+/* general styles, colors, font families*/
+
+body {
+  margin: 0;
+}
+
+nav {
+  background: balck;
+  padding: 1% 2%;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+nav ul li a:hover {
+    color: blue;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+p {
+  font-size: 1.4em;
+
+}
+
+
+#bottom-section {
+  /* background-color: blue; */
+  height: 300px;
+}
+
+@media only screen and (max-width: 376px;) {
+  h1 {
+    font-size: 4.34vh;
+  }
+
+  p {
+    font-size: 2em;
+  }
+
+  .containerv{
+    padding: 0 18%;
+  }
+
+  body {
+
+  }
+
+    top-section {
+      /* background-color: red; */
+      height: 300px;
+      margin-top: 25%;
+    }
+}
